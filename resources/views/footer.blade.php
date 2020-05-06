@@ -14,9 +14,6 @@
 
         </div>
         <div class="col-lg-3 col-md-6">
-
-        </div>
-        <div class="col-lg-3 col-md-6">
             <h3 data-target="#collapse_3">Contacts</h3>
             <div class="collapse dont-collapse-sm contacts" id="collapse_3">
                 <ul>
@@ -26,6 +23,17 @@
                     <li><i class="icon_mobile"></i>+6019-577 8108</li>
                     <li><i class="icon_mail_alt"></i><a href="#0">info@thecarpedia.com</a></li>
                 </ul>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <h3 data-target="#collapse_4">Follow Us</h3>
+            <div class="collapse dont-collapse-sm" id="collapse_4">
+                <div class="follow_us">
+                    <ul>
+                        <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/facebook_icon.svg" alt="" class="lazy"></a></li>
+                        <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/instagram_icon.svg" alt="" class="lazy"></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
