@@ -54,7 +54,7 @@
                 <a href="grid-listing-filterscol.html" class="btn_1">Shop Now</a>
             </div>
             <div class="what-image">
-                <img class="img-responsive" src="{{ asset('img/step1.png') }}" alt="whatistlg">
+                <img class="img-responsive" src="{{ asset('img/step1_nolabel.png') }}" alt="whatistlg">
             </div>
         </div>
     </div>
@@ -70,36 +70,36 @@
             </div>
             <div class="owl-carousel owl-theme categories_carousel">
                 <div class="item">
-                    <a href="">
-                        <img class="" src="{{ asset('img/step1-1.png') }}">
+                    <a>
+                        <img class="" src="{{ asset('img/step1.png') }}">
                         <h3>Click on Shop Now</h3>
                         <small></small>
                     </a>
                 </div>
                 <div class="item">
-                    <a href="">
-                        <img class="" src="{{ asset('img/step2-1.png') }}">
+                    <a>
+                        <img class="" src="{{ asset('img/step2.png') }}">
                         <h3>Key in your delivery details​ and confirm your order</h3>
                         <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum velit, consectetur sed lobortis at</small>
                     </a>
                 </div>
                 <div class="item">
-                    <a href="">
-                        <img class="" src="{{ asset('img/step3-1.png') }}">
+                    <a>
+                        <img class="" src="{{ asset('img/step3.png') }}">
                         <h3>Pay for the estimated cost plus driver's fee</h3>
                         <small>You will be reimbursed if real cost spent is less than the estimated cost</small>
                     </a>
                 </div>
                 <div class="item">
-                    <a href="">
-                        <img class="" src="{{ asset('img/step4-1.png') }}">
+                    <a>
+                        <img class="" src="{{ asset('img/step4.png') }}">
                         <h3>Done! Wait for delivery the next day</h3>
                         <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum velit, consectetur sed lobortis at.</small>
                     </a>
                 </div>
                 <div class="item">
                     <a href="">
-                        <img class="" src="{{ asset('img/step1.png') }}">
+                        <img class="" src="{{ asset('img/step1_nolabel.png') }}">
                         <h3>Easy? Click here to Shop Now</h3>
                         <small></small>
                     </a>
@@ -111,7 +111,7 @@
     </div>
     <!-- /bg_gray -->
 
-    <div class="call_section lazy" data-bg="url(img/hero4_cropped.jpg)">
+    <div class="call_section lazy" data-bg="url(img/hero_cropped.jpg)">
         <div class="container clearfix">
             <div class="col-lg-5 col-md-6 float-right wow">
                 <div class="box_1">

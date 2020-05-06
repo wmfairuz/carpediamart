@@ -22,6 +22,8 @@
                     </li>
                     <li><i class="icon_mobile"></i>+6019-577 8108</li>
                     <li><i class="icon_mail_alt"></i><a href="#0">info@thecarpedia.com</a></li>
+                    <li><i class="icon_clock"></i>Monday - Saturday: 8AM - 4PM</li>
+                    <li><i class="social_facebook_circle"></i><a href="https://m.me/thecarpedia">https://m.me/thecarpedia</a></li>
                 </ul>
             </div>
         </div>
