@@ -1,0 +1,53 @@
+.hero_single.version_2 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('/img/hero4.jpg');
+    /*background-color: #ff0000;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.owl-theme.categories_carousel .item a {
+    padding: 70px 20px;
+}
+
+.owl-theme.categories_carousel .item a h3 {
+    margin-top: 10px;
+}
+
+.hero_single .btn_lg {
+    font-size: 1.125rem;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.what-words {
+    ax-width: 561px;
+    padding: 80px;
+}
+
+.what-words h2 {
+    font-size: 2rem;
+}
+
+.what-words p {
+    font-size: 1.125rem;
+}
+
+.what-image > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 480px) {
+    .what-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
