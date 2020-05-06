@@ -80,21 +80,21 @@
                     <a href="">
                         <img class="" src="{{ asset('img/step2-1.png') }}">
                         <h3>Key in your delivery details​ and confirm your order</h3>
-                        <small></small>
+                        <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum velit, consectetur sed lobortis at</small>
                     </a>
                 </div>
                 <div class="item">
                     <a href="">
                         <img class="" src="{{ asset('img/step3-1.png') }}">
                         <h3>Pay for the estimated cost plus driver's fee</h3>
-                        <small></small>
+                        <small>You will be reimbursed if real cost spent is less than the estimated cost</small>
                     </a>
                 </div>
                 <div class="item">
                     <a href="">
                         <img class="" src="{{ asset('img/step4-1.png') }}">
                         <h3>Done! Wait for delivery the next day</h3>
-                        <small></small>
+                        <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum velit, consectetur sed lobortis at.</small>
                     </a>
                 </div>
                 <div class="item">

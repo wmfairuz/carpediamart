@@ -15,6 +15,11 @@
 
 .owl-theme.categories_carousel .item a h3 {
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.owl-theme.categories_carousel .item a small {
+    color: #848484;
 }
 
 .hero_single .btn_lg {
