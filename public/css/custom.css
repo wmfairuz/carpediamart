@@ -9,6 +9,20 @@
     background-size: cover;
 }
 
+.hero_single .hero-text {
+    text-align: right;
+}
+
+.hero_single .hero-text h1 {
+    font-size: 4rem;
+}
+
+.hero_single .hero-text .sub-title {
+    font-size: 1.4rem;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
 .owl-theme.categories_carousel .item a {
     padding: 70px 20px;
 }
@@ -23,7 +37,11 @@
 }
 
 .hero_single .btn_lg {
-    font-size: 1.125rem;
+    font-size: 1.2rem;
+}
+
+.hero_single p {
+    margin-bottom: 0px;
 }
 
 .flex-container {
@@ -55,4 +73,8 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+}
+
+.call_section .box_1 {
+    background-color: rgba(18, 25, 33, 0.3);
 }

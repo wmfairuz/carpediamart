@@ -5,32 +5,11 @@
         <div class="opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.2)">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-xl-9 col-lg-10 col-md-8">
+                    <div class="col-xl-12 col-lg-10 col-md-8 hero-text">
                         <h1>Carpedia Mart</h1>
-                        <p>Shop and deliver to your doorstep with a few clicks</p>
+                        <p>Shop Bulk Groceries From Your Favourite Stores Online</p>
+                        <p class="sub-title">We'll Deliver To Your Doorstep The Next Morning, Fresh and New!</p>
                         <a href="#" class="btn_1 btn_lg">Shop Now</a>
-                        {{--                        <form method="post" action="grid-listing-filterscol.html">--}}
-                        {{--                            <div class="row no-gutters custom-search-input">--}}
-                        {{--                                <div class="col-lg-4">--}}
-                        {{--                                    <div class="form-group">--}}
-                        {{--                                        <select class="form-control">--}}
-                        {{--                                            <option>ABC</option>--}}
-                        {{--                                        </select>--}}
-                        {{--                                    </div>--}}
-                        {{--                                </div>--}}
-                        {{--                                <div class="col-lg-6">--}}
-                        {{--                                    <div class="form-group">--}}
-                        {{--                                        <input class="form-control no_border_r" type="text" id="autocomplete"--}}
-                        {{--                                               placeholder="Address, neighborhood...">--}}
-                        {{--                                        <i class="icon_pin_alt"></i>--}}
-                        {{--                                    </div>--}}
-                        {{--                                </div>--}}
-                        {{--                                <div class="col-lg-2">--}}
-                        {{--                                    <input type="submit" value="Search">--}}
-                        {{--                                </div>--}}
-                        {{--                            </div>--}}
-                        {{--                            <!-- /row -->--}}
-                        {{--                        </form>--}}
                     </div>
                 </div>
                 <!-- /row -->
@@ -40,17 +19,11 @@
     <!-- /hero_single -->
 
     <div class="container margin_60_40">
-        {{--        <div class="main_title">--}}
-        {{--            <span><em></em></span>--}}
-        {{--            <h2>Popular Restaurants</h2>--}}
-        {{--            <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>--}}
-        {{--            <a href="#0">View All</a>--}}
-        {{--        </div>--}}
         <div class="flex-container what-box">
             <div class="what-words">
                 <h2>What is <span>Carpedia Mart</span></h2>
-                <p>A new delivery service aimed at fulfilling your needs for fresh groceries and other home essentials.
-                    Place your order online and we’ll take it from there!​</p>
+                <p>A personal grocery shopper service to help you stock up your grocery needs from your preferred store
+                    of choice. Place your order online and leave the rest to Carpedia Mart!</p>
                 <a href="grid-listing-filterscol.html" class="btn_1">Shop Now</a>
             </div>
             <div class="what-image">
@@ -65,36 +38,36 @@
             <div class="main_title center">
                 <span><em></em></span>
                 <h2>How it works</h2>
-                <p>Grocery delivery with Carpedia Mart is made simple so you can get what you need quick and safe, just
-                    follow these simple steps:​</p>
+                <p>Your goods will be delivered right to your doorstep the next morning, just by following these 4
+                    simple steps;​</p>
             </div>
             <div class="owl-carousel owl-theme categories_carousel">
                 <div class="item">
                     <a>
                         <img class="" src="{{ asset('img/step1.png') }}">
-                        <h3>Click on Shop Now</h3>
+                        <h3>Click SHOP NOW</h3>
                         <small></small>
                     </a>
                 </div>
                 <div class="item">
                     <a>
                         <img class="" src="{{ asset('img/step2.png') }}">
-                        <h3>Key in your delivery details​ and confirm your order</h3>
-                        <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum velit, consectetur sed lobortis at</small>
+                        <h3>Key in your delivery details and confirm your order</h3>
+                        {{--                        <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum velit, consectetur sed lobortis at</small>--}}
                     </a>
                 </div>
                 <div class="item">
                     <a>
                         <img class="" src="{{ asset('img/step3.png') }}">
-                        <h3>Pay for the estimated cost plus driver's fee</h3>
-                        <small>You will be reimbursed if real cost spent is less than the estimated cost</small>
+                        <h3>Make cashless payment </h3>
+                        {{--                        <small>You will be reimbursed if real cost spent is less than the estimated cost</small>--}}
                     </a>
                 </div>
                 <div class="item">
                     <a>
                         <img class="" src="{{ asset('img/step4.png') }}">
-                        <h3>Done! Wait for delivery the next day</h3>
-                        <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum velit, consectetur sed lobortis at.</small>
+                        <h3>Wait for delivery the next morning </h3>
+                        {{--                        <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum velit, consectetur sed lobortis at.</small>--}}
                     </a>
                 </div>
                 <div class="item">
@@ -113,12 +86,12 @@
 
     <div class="call_section lazy" data-bg="url(img/hero_cropped.jpg)">
         <div class="container clearfix">
+
             <div class="col-lg-5 col-md-6 float-right wow">
                 <div class="box_1">
-                    <h3>Thank you for choosing Carpedia Mart as your grocery delivery service.</h3>
-                    <p>We know your time is valuable, which is why we make every effort to ensure that your groceries
-                        are delivered right to your doorstep to make your life a little less hectic. We take great pride
-                        in providing quality customer service in the delivery of groceries and fine spirits.</p>
+                    <h3>Thank you for trusting Carpedia Mart</h3>
+                    <p>It is our pride to deliver fresh goods to your doorstep at the comfort of a few clicks
+                        online.</p>
                 </div>
             </div>
         </div>
