@@ -71,28 +71,28 @@
             <div class="owl-carousel owl-theme categories_carousel">
                 <div class="item">
                     <a href="">
-                        <img class="" src="{{ asset('img/step1.jpeg') }}">
+                        <img class="" src="{{ asset('img/step1-1.png') }}">
                         <h3>Click on Shop Now</h3>
                         <small></small>
                     </a>
                 </div>
                 <div class="item">
                     <a href="">
-                        <img class="" src="{{ asset('img/step2.jpeg') }}">
+                        <img class="" src="{{ asset('img/step2-1.png') }}">
                         <h3>Key in your delivery details​ and confirm your order</h3>
                         <small></small>
                     </a>
                 </div>
                 <div class="item">
                     <a href="">
-                        <img class="" src="{{ asset('img/step3.jpeg') }}">
+                        <img class="" src="{{ asset('img/step3-1.png') }}">
                         <h3>Pay for the estimated cost plus driver's fee</h3>
                         <small></small>
                     </a>
                 </div>
                 <div class="item">
                     <a href="">
-                        <img class="" src="{{ asset('img/step4.jpeg') }}">
+                        <img class="" src="{{ asset('img/step4-1.png') }}">
                         <h3>Done! Wait for delivery the next day</h3>
                         <small></small>
                     </a>
