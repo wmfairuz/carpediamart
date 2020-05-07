@@ -27,7 +27,7 @@
                 <a href="grid-listing-filterscol.html" class="btn_1">Shop Now</a>
             </div>
             <div class="what-image">
-                <img class="img-responsive" src="{{ asset('img/step1_nolabel.png') }}" alt="whatistlg">
+                <img class="img-responsive" src="{{ asset('img/whatis.png') }}" alt="whatistlg">
             </div>
         </div>
     </div>
@@ -72,7 +72,7 @@
                 </div>
                 <div class="item">
                     <a href="">
-                        <img class="" src="{{ asset('img/step1_nolabel.png') }}">
+                        <img class="" src="{{ asset('img/whatis.png') }}">
                         <h3>Easy? Click here to Shop Now</h3>
                         <small></small>
                     </a>

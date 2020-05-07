@@ -9,6 +9,14 @@
     background-size: cover;
 }
 
+.call_section {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .hero_single .hero-text {
     text-align: right;
 }
