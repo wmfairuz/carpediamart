@@ -1,3 +1,15 @@
+.main-menu > ul > li > a, ul#top_menu li a.login  {
+    color: #222;
+}
+
+.divider {
+    margin-bottom: 25px;
+}
+
+.invalid-feedback {
+    display: block;
+}
+
 .hero_single.version_2 {
     background-repeat: no-repeat;
     background-position: center;

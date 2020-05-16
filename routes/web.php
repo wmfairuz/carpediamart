@@ -15,8 +15,19 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('landing');
-});
+})->name('landing');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/account', function() {
+    return view('account');
+})->name('account');
+
+Route::get('/signup', function() {
+    return view('signup');
+})->name('signup');
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/home', 'HomeController@index')->name('home')->middleware('password.confirm');
+    Route::get('/profile', 'HomeController@profile')->name('profile');
+});

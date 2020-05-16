@@ -40,12 +40,12 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-{{--    <link href="{{ asset('css/app.css') }}" rel="stylesheet">--}}
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 <!-- GOOGLE WEB FONT -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
 
     <!-- BASE CSS -->
-    <link href="{{ asset('css/bootstrap_customized.min.css') }}" rel="stylesheet">
+{{--    <link href="{{ asset('css/bootstrap_customized.min.css') }}" rel="stylesheet">--}}
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
     <!-- SPECIFIC CSS -->
@@ -53,42 +53,22 @@
 
     <!-- YOUR CUSTOM CSS -->
     <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
+{{--    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>--}}
+
+    @stack('styles')
+
+    <livewire:styles>
 </head>
 <body>
-<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>
-    window.fbAsyncInit = function() {
-        FB.init({
-            xfbml            : true,
-            version          : 'v7.0'
-        });
-    };
-
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-     attribution=setup_tool
-     page_id="586706101466984"
-     theme_color="#67b868"
-     logged_in_greeting="Hi, welcome to Carpedia Mart! Please let us know how can we help you."
-     logged_out_greeting="Hi, welcome to Carpedia Mart! Please let us know how can we help you.">
-</div>
+@yield('fb')
 <header class="header clearfix element_to_stick">
-    @include('header')
+    @include('layouts.header')
 </header>
 <main>
     @yield('content')
 </main>
 <footer>
-    @include('footer')
+    @include('layouts.footer')
 </footer>
 <!--/footer-->
 
@@ -99,5 +79,9 @@
 <script src="{{ asset('js/common_scripts.min.js') }}"></script>
 <script src="{{ asset('js/common_func.js') }}"></script>
 <script src="{{ asset('js/validate.js') }}"></script>
+
+<livewire:scripts>
+
+@stack('scripts')
 </body>
 </html>

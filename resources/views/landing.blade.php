@@ -1,5 +1,17 @@
 @extends('layouts.foogra')
 
+@section('fb')
+    @include('layouts.fb')
+@endsection
+
+@push('styles')
+    <style>
+        .main-menu > ul > li > a, ul#top_menu li a.login  {
+            color: #fff;
+        }
+    </style>
+@endpush
+
 @section('content')
     <div class="hero_single version_2">
         <div class="opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.2)">
@@ -9,7 +21,7 @@
                         <h1>Carpedia Mart</h1>
                         <p>Shop Bulk Groceries From Your Favourite Stores Online</p>
                         <p class="sub-title">We'll Deliver To Your Doorstep The Next Morning, Fresh and New!</p>
-                        <a href="#" class="btn_1 btn_lg">Shop Now</a>
+                        <a href="{{ route('account') }}" class="btn_1 btn_lg">Shop Now</a>
                     </div>
                 </div>
                 <!-- /row -->
@@ -24,7 +36,7 @@
                 <h2>What is <span>Carpedia Mart</span></h2>
                 <p>A personal grocery shopper service to help you stock up your grocery needs from your preferred store
                     of choice. Place your order online and leave the rest to Carpedia Mart!</p>
-                <a href="grid-listing-filterscol.html" class="btn_1">Shop Now</a>
+                <a href="{{ route('account') }}" class="btn_1">Shop Now</a>
             </div>
             <div class="what-image">
                 <img class="img-responsive" src="{{ asset('img/whatis.png') }}" alt="whatistlg">
@@ -71,7 +83,7 @@
                     </a>
                 </div>
                 <div class="item">
-                    <a href="">
+                    <a href="{{ route('account') }}">
                         <img class="" src="{{ asset('img/whatis.png') }}">
                         <h3>Easy? Click here to Shop Now</h3>
                         <small></small>
