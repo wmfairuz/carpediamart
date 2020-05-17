@@ -20,7 +20,7 @@
             <a href="#0" class="open_close">
                 <i class="icon_close"></i><span>Menu</span>
             </a>
-            <a href="{{ route('landing') }}"><img src="{{ asset('img/logo.png') }}" width="140" height="35" alt=""></a>
+            <a href="{{ route('landing') }}"><img src="{{ asset('img/logo2.png') }}" width="140" height="35" alt=""></a>
         </div>
         <ul>
             <li>

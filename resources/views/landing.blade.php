@@ -96,7 +96,7 @@
     </div>
     <!-- /bg_gray -->
 
-    <div class="call_section lazy" data-bg="url(img/hero_cropped.jpg)">
+    <div class="call_section lazy" data-bg="url(img/hero.jpg)">
         <div class="container clearfix">
 
             <div class="col-lg-5 col-md-6 float-right wow">
