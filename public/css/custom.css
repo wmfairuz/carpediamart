@@ -98,3 +98,24 @@
 .call_section .box_1 {
     background-color: rgba(18, 25, 33, 0.3);
 }
+
+.imgBorder {
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+    -moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4);
+    -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+.imgBorder-small {
+    padding: 2px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+    -moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4);
+    -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+
+.add_top_5 {
+    padding-top: 5px;
+}

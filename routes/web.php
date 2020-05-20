@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('landing');
-})->name('landing');
+Route::get('/', 'GuestController')->name('landing');
 
 Auth::routes();
 
@@ -27,7 +25,16 @@ Route::get('/signup', function() {
     return view('signup');
 })->name('signup');
 
+Route::get('/orders', 'OrderController@create')->name('orders.create');
+Route::post('/orders', 'OrderController@store')->name('orders.store');
+Route::get('/orders/remove/{product}', 'OrderController@removeProductFromCart')->name('orders.remove');
+Route::get('/orders/clear', 'OrderController@clearCart')->name('orders.clear');
+
 Route::middleware(['auth'])->group(function () {
-    Route::get('/home', 'HomeController@index')->name('home')->middleware('password.confirm');
+    Route::get('/home', 'HomeController@index')->name('home');
     Route::get('/profile', 'HomeController@profile')->name('profile');
+
+//    Route::resource('orders', 'OrderController')->except([
+//        'create', 'store'
+//    ]);
 });

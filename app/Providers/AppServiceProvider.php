@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -26,6 +27,12 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        Blade::directive('ringgit', function ($money) {
+            if(!$money) {
+                return '-';
+            }
+
+            return "RM<?php echo number_format($money, 2); ?>";
+        });
     }
 }
