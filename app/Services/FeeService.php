@@ -12,14 +12,18 @@ class FeeService
             return 0;
         }
 
-        if($amount <= 50) {
+        if($amount <= 100) {
             return 25;
         }
 
-        if($amount > 50 && $amount <= 100) {
+        if($amount > 100 && $amount <= 200) {
             return 35;
         }
 
-        return 45;
+        if($amount > 200 && $amount <= 300) {
+            return 45;
+        }
+
+        return 50;
     }
 }
