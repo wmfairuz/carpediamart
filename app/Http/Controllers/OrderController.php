@@ -198,11 +198,15 @@ class OrderController extends Controller
     public function setCart()
     {
         if(!session()->has('user_uuid')) {
-            $uuid = Uuid::uuid4()->toString();
             if (Auth::check()) {
-                $uuid = Auth::user()->uuid;
+                session(['user_uuid' => Auth::user()->uuid]);
+            } else {
+                session(['user_uuid' => Uuid::uuid4()->toString()]);
             }
-            session(['user_uuid' => $uuid]);
+        }
+
+        if(Auth::check() && session('user_uuid') != Auth::user()->uuid) {
+
         }
 
         $this->cart = Cart::session(session('user_uuid'));

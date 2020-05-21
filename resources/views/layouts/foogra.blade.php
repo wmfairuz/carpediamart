@@ -32,28 +32,11 @@
 
     <title>{{ config('app.name') }}</title>
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-
     <!-- Fonts -->
-    {{--    <link rel="dns-prefetch" href="//fonts.gstatic.com">--}}
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-<!-- GOOGLE WEB FONT -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
 
-    <!-- BASE CSS -->
-{{--    <link href="{{ asset('css/bootstrap_customized.min.css') }}" rel="stylesheet">--}}
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-
-    <!-- SPECIFIC CSS -->
-    <link href="{{ asset('css/home.css') }}" rel="stylesheet">
-
-    <!-- YOUR CUSTOM CSS -->
-    <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
-{{--    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>--}}
+    <!-- Styles -->
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
     @stack('styles')
 
@@ -76,9 +59,11 @@
 
 <div class="layer"></div><!-- Opacity Mask Menu Mobile -->
 
-<script src="{{ asset('js/common_scripts.min.js') }}"></script>
+<script src="{{ asset('js/app.js') }}" defer></script>
+<script src="{{ asset('js/common_scripts.js') }}"></script>
 <script src="{{ asset('js/common_func.js') }}"></script>
 <script src="{{ asset('js/validate.js') }}"></script>
+
 
 <livewire:scripts>
 

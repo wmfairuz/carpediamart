@@ -1,7 +1,7 @@
 @extends('layouts.foogra')
 
 @push('styles')
-    <link href="{{ asset('css/booking-sign_up.css') }}" rel="stylesheet">
+    <link href="{{ mix('css/booking-sign_up.css') }}" rel="stylesheet">
 @endpush
 
 @section('content')

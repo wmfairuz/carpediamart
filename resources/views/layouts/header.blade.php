@@ -27,6 +27,9 @@
                 <a href="{{ route('landing') }}">Home</a>
             </li>
             <li>
+                <a href="{{ route('orders.create') }}"><i class="icon_cart"></i> Shop Now</a>
+            </li>
+            <li>
                 <a href="https://thecarpedia.com">The Carpedia e-Hailing</a>
             </li>
             <li>
