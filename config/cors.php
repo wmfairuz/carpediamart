@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'paths' => ['api/*', 'static.carpediamart.online'],
+    'paths' => ['api/*', 'https://static.carpediamart.online', 'https://carpediamart.online'],
 
     'allowed_methods' => ['*'],
 
