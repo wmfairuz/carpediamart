@@ -32,8 +32,8 @@
             <div class="collapse dont-collapse-sm" id="collapse_4">
                 <div class="follow_us">
                     <ul>
-                        <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/facebook_icon.svg" alt="" class="lazy"></a></li>
-                        <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/instagram_icon.svg" alt="" class="lazy"></a></li>
+                        <li><a href="#0"><img data-src="img/facebook_icon.svg" alt="" class="lazy"></a></li>
+                        <li><a href="#0"><img data-src="img/instagram_icon.svg" alt="" class="lazy"></a></li>
                     </ul>
                 </div>
             </div>
