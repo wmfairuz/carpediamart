@@ -39,7 +39,7 @@
                 <a href="{{ route('orders.create') }}" class="btn_1">Shop Now</a>
             </div>
             <div class="what-image">
-                <img class="img-responsive" src="{{ asset('img/whatis.png') }}" alt="whatistlg">
+                <img class="img-responsive" src="{{ mix('img/whatis.png') }}" alt="whatistlg">
             </div>
         </div>
     </div>
@@ -56,35 +56,35 @@
             <div class="owl-carousel owl-theme categories_carousel">
                 <div class="item">
                     <a>
-                        <img class="" src="{{ asset('img/step1.png') }}">
+                        <img class="" src="{{ mix('img/step1.png') }}">
                         <h3>Click SHOP NOW</h3>
                         <small></small>
                     </a>
                 </div>
                 <div class="item">
                     <a>
-                        <img class="" src="{{ asset('img/step2.png') }}">
+                        <img class="" src="{{ mix('img/step2.png') }}">
                         <h3>Key in your delivery details and confirm your order</h3>
                         {{--                        <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum velit, consectetur sed lobortis at</small>--}}
                     </a>
                 </div>
                 <div class="item">
                     <a>
-                        <img class="" src="{{ asset('img/step3.png') }}">
+                        <img class="" src="{{ mix('img/step3.png') }}">
                         <h3>Make cashless payment </h3>
                         {{--                        <small>You will be reimbursed if real cost spent is less than the estimated cost</small>--}}
                     </a>
                 </div>
                 <div class="item">
                     <a>
-                        <img class="" src="{{ asset('img/step4.png') }}">
+                        <img class="" src="{{ mix('img/step4.png') }}">
                         <h3>Wait for delivery the next morning </h3>
                         {{--                        <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum velit, consectetur sed lobortis at.</small>--}}
                     </a>
                 </div>
                 <div class="item">
                     <a href="{{ route('orders.create') }}">
-                        <img class="" src="{{ asset('img/whatis.png') }}">
+                        <img class="" src="{{ mix('img/whatis.png') }}">
                         <h3>Easy? Click here to Shop Now</h3>
                         <small></small>
                     </a>
