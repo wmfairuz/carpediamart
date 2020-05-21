@@ -8,6 +8,7 @@ mix.copy('resources/sass/icon_fonts/*', 'public/css/icon_fonts');
 mix.copy('resources/sass/images/*', 'public/css/images');
 mix.copy('resources/img/*', 'public/img');
 mix.copy('resources/images/*', 'public/images');
+mix.copy('resources/fonts/*', 'public/fonts');
 mix.version();
 mix.purgeCss({
     enabled: true,
