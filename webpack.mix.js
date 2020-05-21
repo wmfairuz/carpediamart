@@ -21,6 +21,7 @@ mix.purgeCss({
         /slider/,
         /caret/,
         /rc-ln/,
-        /sticky/
+        /sticky/,
+        /owl/
     ]
 });
