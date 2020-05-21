@@ -8,7 +8,7 @@ mix.copyDirectory('resources/sass/icon_fonts', 'public/css/icon_fonts');
 mix.copyDirectory('resources/sass/images', 'public/css/images');
 mix.copyDirectory('resources/img', 'public/img');
 mix.copyDirectory('resources/images', 'public/images');
-mix.version();
+mix.version(["public/img"]);
 mix.purgeCss({
     enabled: true,
     extensions: ['blade.php', 'vue', 'js', 'php'],
