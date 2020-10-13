@@ -14,8 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'GuestController')->name('landing');
+Route::get('/test', 'GuestController@test');
 
 Auth::routes();
+
 
 Route::get('/account', function() {
     return view('account');
