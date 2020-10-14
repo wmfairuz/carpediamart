@@ -18,7 +18,7 @@
 
             <div class="col-lg-5 col-md-6 float-right wow">
                 <div class="box_1">
-                    <h3>Carpedia Mart seda membantu semasa PKPB.</h3>
+                    <h3>Carpedia Mart sedia membantu semasa PKPB.</h3>
                     <p>Nantikan kami bermula 15 Oktober 2020</p>
                 </div>
             </div>
