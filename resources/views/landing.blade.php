@@ -1,7 +1,7 @@
 @extends('layouts.foogra')
 
 @section('fb')
-    @include('layouts.fb')
+    @include('layouts.salesiq')
 @endsection
 
 @push('styles')

@@ -4,6 +4,10 @@
     <link href="{{ asset('css/detail-page-delivery.css') }}" rel="stylesheet">
 @endpush
 
+@section('fb')
+    @include('layouts.salesiq')
+@endsection
+
 @push('scripts')
     <script>
         document.getElementById("file").onchange = function () {
