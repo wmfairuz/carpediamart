@@ -4,8 +4,7 @@
             <h3 data-target="#collapse_1">Quick Links</h3>
             <div class="collapse dont-collapse-sm links" id="collapse_1">
                 <ul>
-                    <li><a href="about.html">The Carpedia e-Hailing</a></li>
-                    <li><a href="help.html">The Carpedia Academy</a></li>
+                    <li><a href="https://thecarpedia.com">The Carpedia e-Hailing</a></li>
                     <li><a href="help.html">Help</a></li>
                 </ul>
             </div>
@@ -21,7 +20,7 @@
                         Lumpur
                     </li>
                     <li><i class="icon_mobile"></i>+6019-577 8108</li>
-                    <li><i class="icon_mail_alt"></i><a href="#0">info@thecarpedia.com</a></li>
+                    <li><i class="icon_mail_alt"></i><a href="mailto:admin@thecarpedia.com?subject=Carpedia Mart Inquiry">admin@thecarpedia.com</a></li>
                     <li><i class="icon_clock"></i>Monday - Saturday: 8AM - 4PM</li>
                     <li><i class="social_facebook_circle"></i><a href="https://m.me/thecarpedia">https://m.me/thecarpedia</a></li>
                 </ul>

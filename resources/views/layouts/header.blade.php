@@ -33,9 +33,6 @@
                 <a href="https://thecarpedia.com">The Carpedia e-Hailing</a>
             </li>
             <li>
-                <a href="https://thecarpedia.com">The Carpedia Academy</a>
-            </li>
-            <li>
                 <a href="#"><i class="icon_phone"></i> Contact Us +6019-577 8108</a>
             </li>
             @guest

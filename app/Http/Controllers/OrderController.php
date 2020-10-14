@@ -71,7 +71,8 @@ class OrderController extends Controller
         $quantity = $this->cart->getTotalQuantity();
         $conditions = $this->cart->getConditions();
 
-        return view('orders.create', compact('items', 'subtotal', 'total', 'quantity', 'conditions'));
+        return view('comingsoon');
+//        return view('orders.create', compact('items', 'subtotal', 'total', 'quantity', 'conditions'));
     }
 
     /**
