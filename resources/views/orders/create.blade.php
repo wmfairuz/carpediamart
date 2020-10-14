@@ -159,7 +159,7 @@
                                     <li class="total">Estimated Total<span>@ringgit($total)</span></li>
                                 </ul>
 
-                                <a class="btn_1 full-width mb_5">Checkout</a>
+                                <a href="" class="btn_1 full-width mb_5">Checkout</a>
                                 <div class="text-center"><small>You will be asked for your delivery details in the next
                                         step</small></div>
                             </div>
