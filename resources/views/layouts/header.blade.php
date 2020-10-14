@@ -33,7 +33,7 @@
                 <a href="https://thecarpedia.com">The Carpedia e-Hailing</a>
             </li>
             <li>
-                <a href="#"><i class="icon_phone"></i> Contact Us +6019-577 8108</a>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=60195778108&text=Carpedia Mart"><i class="icon_phone"></i> Contact Us +6019-577 8108</a>
             </li>
             @guest
                 <li>

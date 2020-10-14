@@ -19,7 +19,7 @@
                     <li><i class="icon_house_alt"></i>6, Jalan Jelatek, <br>Pusat Perniagaan Jelatek, <br>54200 Kuala
                         Lumpur
                     </li>
-                    <li><i class="icon_mobile"></i>+6019-577 8108</li>
+                    <li><a target="_blank" href="https://api.whatsapp.com/send?phone=60195778108&text=Carpedia Mart"><i class="icon_mobile"></i>+6019-577 8108</a></li>
                     <li><i class="icon_mail_alt"></i><a href="mailto:admin@thecarpedia.com?subject=Carpedia Mart Inquiry">admin@thecarpedia.com</a></li>
                     <li><i class="icon_clock"></i>Monday - Saturday: 8AM - 4PM</li>
                     <li><i class="social_facebook_circle"></i><a href="https://m.me/thecarpedia">https://m.me/thecarpedia</a></li>
