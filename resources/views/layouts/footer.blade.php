@@ -5,7 +5,7 @@
             <div class="collapse dont-collapse-sm links" id="collapse_1">
                 <ul>
                     <li><a href="https://thecarpedia.com">The Carpedia e-Hailing</a></li>
-                    <li><a href="help.html">Help</a></li>
+{{--                    <li><a href="help.html">Help</a></li>--}}
                 </ul>
             </div>
         </div>
