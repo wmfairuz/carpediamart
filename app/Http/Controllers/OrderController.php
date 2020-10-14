@@ -126,6 +126,14 @@ class OrderController extends Controller
             'order' => 1
         ]));
 
+        $this->cart->condition(new CartCondition([
+            'name' => 'Refundable Deposit',
+            'type' => 'deposit',
+            'target' => 'total', // this condition will be applied to cart's subtotal when getSubTotal() is called.
+            'value' => $this->feeService->getDeposit($this->cart->getSubTotalWithoutConditions()),
+            'order' => 1
+        ]));
+
         return redirect()->route('orders.create');
     }
 

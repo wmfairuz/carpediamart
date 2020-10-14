@@ -26,4 +26,17 @@ class FeeService
 
         return 50;
     }
+
+    public function getDeposit($amount)
+    {
+        if(!$amount) {
+            return 0;
+        }
+
+        if($amount <= 100) {
+            return 30;
+        }
+
+        return 50;
+    }
 }
