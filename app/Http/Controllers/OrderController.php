@@ -327,15 +327,15 @@ class OrderController extends Controller
         $payment = Payment::whereBillId($billplz['id'])->first();
 
         if ($payment) {
+            $uuid = $this->setCart();
+            $this->cart->clearCartConditions();
+            $this->cart->clear();
+
             if (!$payment->paid) {
                 $payment->paid = $billplz['paid'] == 'true' ? 1 : 0;
                 $payment->paid_at = $billplz['paid_at'] ? Carbon::parse($billplz['paid_at']) : null;
                 $payment->x_signature = $billplz['x_signature'];
                 $payment->save();
-
-                $uuid = $this->setCart();
-                $this->cart->clearCartConditions();
-                $this->cart->clear();
 
                 if ($payment->paid) {
                     Mail::to($payment->email)->send(new OrderSuccess($payment));
