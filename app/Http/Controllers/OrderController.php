@@ -71,6 +71,7 @@ class OrderController extends Controller
      */
     public function create()
     {
+        \Log::info('Create Order');
         $uuid = $this->setCart();
         $items = $this->cart->getContent();
         $subtotal = $this->cart->getSubTotal();
@@ -89,6 +90,7 @@ class OrderController extends Controller
      */
     public function store(Request $request)
     {
+        \Log::info('Store Cart');
         $uuid = $this->setCart();
 
         \Log::info($request->all());
@@ -146,6 +148,7 @@ class OrderController extends Controller
 
     public function removeProductFromCart(Product $product)
     {
+        \Log::info('Remove from cart');
         $uuid = $this->setCart();
         $this->cart->remove($product->id);
         if($this->cart->getTotalQuantity() == 0) {
@@ -157,6 +160,7 @@ class OrderController extends Controller
 
     public function clearCart()
     {
+        \Log::info('Clear cart');
         $uuid = $this->setCart();
         $this->cart->clearCartConditions();
         $this->cart->clear();
@@ -229,6 +233,7 @@ class OrderController extends Controller
     }
 
     public function checkout(Request $request){
+        \Log::info('Checkout');
         $uuid = $this->setCart();
         $items = $this->cart->getContent();
         $subtotal = $this->cart->getSubTotal();
@@ -246,6 +251,7 @@ class OrderController extends Controller
     }
 
     public function payment(Request $request){
+        \Log::info('Payment');
         $uuid = $this->setCart();
         $items = $this->cart->getContent();
         $subtotal = $this->cart->getSubTotal();

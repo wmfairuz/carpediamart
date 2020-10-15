@@ -8,6 +8,7 @@ class GuestController extends Controller
 {
     public function __invoke()
     {
+        \Log::info('Landing');
         return view('landing');
     }
 
