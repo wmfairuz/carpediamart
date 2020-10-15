@@ -27,12 +27,19 @@ Route::get('/signup', function() {
     return view('signup');
 })->name('signup');
 
-Route::get('/orders', 'OrderController@create')->name('orders.create');
-Route::post('/orders', 'OrderController@store')->name('orders.store');
-Route::get('/orders/remove/{product}', 'OrderController@removeProductFromCart')->name('orders.remove');
-Route::get('/orders/clear', 'OrderController@clearCart')->name('orders.clear');
+Route::prefix('orders')->group(function () {
+    Route::get('/', 'OrderController@create')->name('orders.create');
+    Route::post('/', 'OrderController@store')->name('orders.store');
+    Route::get('/remove/{product}', 'OrderController@removeProductFromCart')->name('orders.remove');
+    Route::get('/clear', 'OrderController@clearCart')->name('orders.clear');
+});
 
 Route::middleware(['auth'])->group(function () {
+    Route::prefix('orders')->group(function () {
+        Route::get('/checkout', 'OrderController@checkout')->name('orders.checkout');
+        Route::get('/payment', 'OrderController@payment')->name('orders.payment');
+    });
+
     Route::get('/home', 'HomeController@index')->name('home');
     Route::get('/profile', 'HomeController@profile')->name('profile');
 
@@ -40,3 +47,5 @@ Route::middleware(['auth'])->group(function () {
 //        'create', 'store'
 //    ]);
 });
+
+Route::get('/redirect', 'OrderController@redirect')->name('redirect');

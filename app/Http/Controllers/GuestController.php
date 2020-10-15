@@ -13,8 +13,8 @@ class GuestController extends Controller
 
     public function test(Request $request)
     {
-        $queryString = $request->getQueryString();
-        dd($queryString);
+//        $queryString = $request->getQueryString();
+//        dd($queryString);
         return 'ok';
     }
 

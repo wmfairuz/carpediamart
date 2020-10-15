@@ -30,4 +30,23 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'sendgrid' => [
+        'api_key' => env('SENDGRID_API_KEY'),
+    ],
+
+    'billplz' => [
+        'key' => env('BILLPLZ_API_KEY'),
+        'version' => env('BILLPLZ_VERSION', 'v4'),
+        'x-signature' => env('BILLPLZ_X_SIGNATURE'),
+        'sandbox' => env('BILLPLZ_SANDBOX', false),
+        'callback_url' => env('BILLPLZ_CALLBACK_URL'),
+        'redirect_url' => env('BILLPLZ_REDIRECT_URL'),
+        'collection' => env('BILLPLZ_COLLECTION_ID'),
+        'description' => env('BILLPLZ_DESCRIPTION'),
+    ],
+
+    'carpediamart' => [
+
+    ],
+
 ];

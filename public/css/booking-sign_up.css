@@ -1,1 +1,122 @@
-.sign_up{border-radius:5px;margin-bottom:25px;background-color:#fff;box-shadow:0 0 30px 0 rgba(0,0,0,.3);overflow:hidden}.sign_up .head{text-align:center;padding:23px 20px 18px;background-color:#589442;color:#fff}.sign_up .head h3{font-size:24px;font-size:1.5rem;margin:0;color:#fff}.sign_up .head small{display:block}.sign_up .head a{color:#fff;text-decoration:underline}.sign_up .main{padding:25px}.sign_up .main ul{list-style:none;padding:0}.sign_up .main ul li{font-weight:500;margin-bottom:5px}.sign_up .main ul li span{float:right;font-weight:400}.sign_up .main ul li.total{font-size:16px;font-size:1rem;font-weight:600;color:#e74747;text-transform:uppercase}.sign_up .main ul li.total span{font-weight:600}.sign_up .form-group input{padding-right:40px}.sign_up .form-group i{font-size:16px;font-size:1rem;position:absolute;right:3px;top:12px;color:#ccc;width:25px;height:25px;display:block;font-weight:400!important}.sign_up .form-group i.icon_mail{top:10px}#confirm{text-align:center;padding:60px 15px}@keyframes checkmark{0%{stroke-dashoffset:50px}to{stroke-dashoffset:0}}@keyframes checkmark-circle{0%{stroke-dashoffset:240px}to{stroke-dashoffset:480px}}
+
+.sign_up {
+  border-radius: 5px;
+  margin-bottom: 25px;
+  background-color: #fff;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+
+.sign_up .head {
+  text-align: center;
+  padding: 23px 20px 18px 20px;
+  background-color: #589442;
+  color: #fff;
+}
+
+
+.sign_up .head h3 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  margin: 0;
+  color: #fff;
+}
+
+
+.sign_up .head small {
+  display: block;
+}
+
+
+.sign_up .head a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+.sign_up .main {
+  padding: 25px;
+}
+
+
+.sign_up .main ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.sign_up .main ul li {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+
+.sign_up .main ul li span {
+  float: right;
+  font-weight: 400;
+}
+
+
+.sign_up .main ul li.total {
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #e74747;
+  text-transform: uppercase;
+}
+
+
+.sign_up .main ul li.total span {
+  font-weight: 600;
+}
+
+
+.sign_up .form-group input {
+  padding-right: 40px;
+}
+
+
+.sign_up .form-group i {
+  font-size: 16px;
+  font-size: 1rem;
+  position: absolute;
+  right: 3px;
+  top: 12px;
+  color: #ccc;
+  width: 25px;
+  height: 25px;
+  display: block;
+  font-weight: 400 !important;
+}
+
+
+.sign_up .form-group i.icon_mail {
+  top: 10px;
+}
+
+#confirm {
+  text-align: center;
+  padding: 60px 15px;
+}
+
+@keyframes checkmark {
+  0% {
+    stroke-dashoffset: 50px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes checkmark-circle {
+  0% {
+    stroke-dashoffset: 240px;
+  }
+
+  100% {
+    stroke-dashoffset: 480px;
+  }
+}
+

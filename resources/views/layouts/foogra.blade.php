@@ -48,6 +48,7 @@
     @include('layouts.header')
 </header>
 <main>
+    @include('flash::message')
     @yield('content')
 </main>
 <footer>
@@ -68,5 +69,10 @@
 <livewire:scripts>
 
 @stack('scripts')
+
+    <script>
+        $('#flash-overlay-modal').modal();
+        $('div.alert').not('.alert-important').delay(3000).fadeOut(350);
+    </script>
 </body>
 </html>

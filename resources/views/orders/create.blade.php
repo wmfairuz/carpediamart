@@ -159,9 +159,9 @@
                                     <li class="total">Estimated Total<span>@ringgit($total)</span></li>
                                 </ul>
 
-                                <a href="" class="btn_1 full-width mb_5">Checkout</a>
-                                <div class="text-center"><small>You will be asked for your delivery details in the next
-                                        step</small></div>
+                                <a class="btn_1 full-width mb_5" href="{{ route('orders.checkout') }}">PROCEED TO CHECKOUT</a>
+{{--                                <div class="text-center"><small>You will be asked for your delivery details in the next--}}
+{{--                                        step</small></div>--}}
                             </div>
                         </div>
                     </div>

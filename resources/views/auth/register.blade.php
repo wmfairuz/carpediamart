@@ -63,7 +63,7 @@
                                 <div class="divider"><span>Delivery Information</span></div>
 
                                 <div class="form-group">
-                                    <input id="phone" type="phone" placeholder="Mobile No."
+                                    <input id="phone" type="phone" placeholder="Mobile No. (eg: 0136252699)"
                                            class="form-control @error('phone') is-invalid @enderror" name="phone"
                                            value="{{ old('phone') }}" required autocomplete="phone">
                                     <i class="icon_phone"></i>
