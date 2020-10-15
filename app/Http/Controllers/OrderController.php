@@ -344,7 +344,8 @@ class OrderController extends Controller
                     flash()->overlay('Payment failed. Please use different payment option and try again.', 'Carpedia Mart');
                 }
             } else {
-                flash()->overlay('Please check your email for order details.', 'Carpedia Mart');
+                Mail::to($payment->email)->send(new OrderSuccess($payment));
+                flash()->overlay('Order successful. Your order details will be sent to your email address.', 'Carpedia Mart');
             }
         } else {
             flash()->overlay('No order found', 'Carpedia Mart');
