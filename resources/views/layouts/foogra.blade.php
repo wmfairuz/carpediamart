@@ -7,7 +7,7 @@
     <meta name="description" content="CarpediaMart - Shop and deliver to your doorstep with a few clicks">
     <meta property="og:title" content="{{ config('app.name') }}" />
     <meta property="og:description" content="CarpediaMart - Shop and deliver to your doorstep with a few clicks">
-    <meta property="og:image" content="{{ asset('img/Icon 1.png') }}">
+    <meta property="og:image" content="{{ mix('img/whatis.png') }}">
     <meta name="author" content="Fairuz">
 
     <!-- Google Tag Manager -->
