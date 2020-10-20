@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="CarpediaMart - Shop and deliver to your doorstep with a few clicks">
+    <meta property="og:title" content="{{ config('app.name') }}" />
+    <meta property="og:description" content="CarpediaMart - Shop and deliver to your doorstep with a few clicks">
+    <meta property="og:image" content="{{ mix('img/Icon 1.png') }}">
     <meta name="author" content="Fairuz">
 
     <!-- Google Tag Manager -->
