@@ -5,7 +5,7 @@
 @endpush
 
 @section('fb')
-    @include('layouts.salesiq')
+{{--    @include('layouts.salesiq')--}}
 @endsection
 
 @push('scripts')
