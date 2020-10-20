@@ -31,8 +31,10 @@
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <div class="box_booking">
-                        <div class="head">
+                        <div class="head order_top">
                             <h3>Order Summary</h3>
+                            <img src="{{ asset('img/Icon 1.png') }}" class="order_top_guide">
+                            <div class="order_top_guide_text">Double confirm your order and shipping details. Once confirmed, click the "Place Order" button.</div>
                         </div>
                         <!-- /head -->
                         <div class="main row">

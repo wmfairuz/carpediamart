@@ -123,3 +123,84 @@
 .foo_bar {
     color: red;
 }
+
+.order_top {
+    position: relative;
+}
+
+.order_top_guide {
+    position: absolute;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    left: 0;
+    top: -145px;
+    width: 300px
+}
+
+.order_top_guide_text {
+    color: white;
+    background-color: #1F938B;
+    border-radius: 25px;
+    padding: 15px;
+    width: 25%;
+    position: absolute;
+    left: 210px;
+    top: -70px;
+}
+
+
+.order_bottom {
+    position: relative;
+    margin-top: 100px;
+}
+
+.order_bottom_guide {
+    position: absolute;
+    right: 0;
+    top: -155px;
+    width: 300px;
+}
+
+.order_bottom_guide_text {
+    color: white;
+    background-color: #1F938B;
+    border-radius: 25px;
+    padding: 15px;
+    width: 25%;
+    position: absolute;
+    right: 230px;
+    top: -90px;
+}
+
+@media screen and (max-width: 992px) {
+    .order_top_guide_text {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .order_top_guide {
+        left: -75px;
+    }
+
+    .order_top_guide_text {
+        left: 140px;
+        width: 60%;
+    }
+
+    .order_bottom {
+        margin-top: 20px;
+    }
+
+    .order_bottom_guide {
+        right: 0;
+        top: -77px;
+        width: 200px;
+    }
+
+    .order_bottom_guide_text {
+        width: 60%;
+        right: 160px;
+        top: -60px;
+    }
+}

@@ -31,8 +31,10 @@
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <div class="box_booking">
-                        <div class="head">
+                        <div class="head order_top">
                             <h3>Order</h3>
+                            <img src="{{ asset('img/Icon 1.png') }}" class="order_top_guide">
+                            <div class="order_top_guide_text">Fill in this form for each product you want to purchase. Make sure to click the "Add to Cart" button.</div>
                         </div>
                         <!-- /head -->
                         <div class="main row">
@@ -165,6 +167,10 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-lg-12 order_bottom">
+                    <img src="{{ asset('img/Icon 2.png') }}" class="order_bottom_guide">
+                    <div class="order_bottom_guide_text">Click the "Proceed to Checkout" button once you have confirmed with your order. No worries on the deposit. It is refundable!</div>
                 </div>
             </div>
         </div>
