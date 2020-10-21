@@ -13,7 +13,7 @@ class Product extends Model implements HasMedia
     use InteractsWithMedia;
     use SoftDeletes;
 
-    protected $fillable = ['name', 'price', 'notes', 'user_uuid'];
+    protected $fillable = ['name', 'price', 'notes', 'user_uuid', 'quantity'];
 
     public function getPriceAttribute($value)
     {

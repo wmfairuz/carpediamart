@@ -105,6 +105,7 @@ class OrderController extends Controller
         $product = Product::create([
             'name' => $request->name,
             'price' => $request->price*100,
+            'quantity' => $request->quantity,
             'user_uuid' => $uuid,
             'notes' => $request->notes
         ]);
