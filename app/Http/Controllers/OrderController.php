@@ -151,6 +151,7 @@ class OrderController extends Controller
         \Log::info('Remove from cart');
         $uuid = $this->setCart();
         $this->cart->remove($product->id);
+        $product->delete();
         if($this->cart->getTotalQuantity() == 0) {
             $this->cart->clearCartConditions();
         }
