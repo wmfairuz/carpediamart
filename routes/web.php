@@ -32,6 +32,7 @@ Route::prefix('orders')->group(function () {
     Route::post('/', 'OrderController@store')->name('orders.store');
     Route::get('/remove/{product}', 'OrderController@removeProductFromCart')->name('orders.remove');
     Route::get('/clear', 'OrderController@clearCart')->name('orders.clear');
+    Route::get('/thankyou', 'OrderController@thankyou')->name('orders.thankyou');
 });
 
 Route::middleware(['auth'])->group(function () {

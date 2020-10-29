@@ -359,7 +359,11 @@ class OrderController extends Controller
             flash()->overlay('No order found', 'Carpedia Mart');
         }
 
-        return redirect()->route('landing');
+        return view('orders.thankyou')->withTransactionId($payment->bill_id)->withAmount($payment->amount/100);
+    }
+
+    public function thankyou(Request $request){
+        return view('orders.thankyou')->withTransactionId('ABC123')->withAmount(123);
     }
 
     public function webhook(Request $request){
